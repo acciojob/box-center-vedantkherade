@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body{
+  height: 100vh;
+  position: relative;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border: 2px solid black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
